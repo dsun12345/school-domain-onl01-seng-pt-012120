@@ -1,1 +1,5 @@
-# code here!
+class School
+
+def intialize 
+  
+end 
