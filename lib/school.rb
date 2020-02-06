@@ -5,7 +5,8 @@ class School
   end 
   
   def roster
-    name = {}
+    @name = {}
   end
 
+  
 end 
