@@ -3,14 +3,7 @@ attr_accessor :name, :roster
 
   def initialize(name)
     @name = name
+    @roster = 
   end 
   
-  def roster
-    @name = {}
-  end
 
-  def add_student(student, grade)
-    @name[student] = []
-    @name[student] << grade
-  end
-end 
