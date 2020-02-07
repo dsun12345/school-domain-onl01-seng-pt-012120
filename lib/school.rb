@@ -19,4 +19,11 @@ attr_accessor :name, :roster
     end
   end 
   
+  def sort 
+   hash = {}
+    roster.each do |x, y| 
+     hash[x] = y.sort 
+       end 
+   nu_hash
+end 
 end
