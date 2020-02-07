@@ -12,7 +12,7 @@ attr_accessor :name, :roster
   end 
   
   def grade(level)
-    roster.detect {|x,y| if x == 
+    roster.detect {|x,y| if x == level 
   end 
   
 end
