@@ -24,6 +24,6 @@ attr_accessor :name, :roster
     roster.each do |x, y| 
      hash[x] = y.sort 
        end 
-   nu_hash
+   hash
 end 
 end
